@@ -1,0 +1,158 @@
+.container {
+    margin: auto;    
+    display: flex;
+    height: auto;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 90%;
+    min-width: none;
+}
+head {
+    color:#FEFAE0;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color:#FEFAE0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color:#283618;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #283618;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+.taskList {
+    color:#283618;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    align-items: flex-start;
+    list-style-type: none;
+    float: left;
+    padding-left: 0%;
+    max-width: 100%;
+    display: inline;
+    overflow-wrap: break-word;
+    border-radius: 3px;
+    background: #f8f5ea;
+    padding: 10px;
+    width: 1100px
+}
+.dateList {
+    color:#283618;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    align-items: flex-start;
+    list-style-type: none;
+    float: left;
+    padding-left: 0%;
+    max-width: 100%;
+    border-radius: 3px;
+    background: #f8f5ea;
+    padding: 10px;
+    width: 1000px
+}
+.delList {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-left: 1px;
+    border-radius: 3px;
+    padding: 0px;
+}
+li {
+    padding-bottom: 6.7px;
+    border-radius: 2px;
+}
+#extrasItem {
+    padding-bottom: 0px;
+}
+.button {
+    border: none;
+    color: green;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.addButton {
+    margin-left: none;
+    color: green;
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+    
+}
+.deleteButton { /* This button needs to be changed to be on every item in the list instead */
+    background-color: #f8f5ea;
+    margin-left: 1px;
+    color: red;
+    border: none;
+    border-radius: 2px;
+    width: 70%;
+    max-width: 70%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.addButton:hover {
+    background-color: green; /* Green */
+    color: white;
+}
+.deleteButton:hover { /* This button needs to be changed to be on every item in the list instead */
+    background-color: red; /* Green */
+    color: white;
+}
+input[type=text] {
+    color:#283618;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 16px 32px;
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 0px;
+    min-width: 0;
+}
+input.taskCheck:checked + label {
+    color: grey;
+    text-decoration: line-through;
+}
+input[type=date] {
+    margin: 4px 2px;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 16px 32px;
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 0px;
+    min-width: 0;
+}
+input[type=color] { /* Find a way to change the size of the color field */
+    cursor: pointer;
+    width: 20%;
+    font-size: 20px;
+}
+.extrasList {
+    list-style-type: none;
+    padding-left: 0%;
+    max-width: 100%;
+}
