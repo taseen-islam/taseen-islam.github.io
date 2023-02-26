@@ -46,6 +46,7 @@ p {
     border-radius: 3px;
     background: #f8f5ea;
     padding: 10px;
+    padding-bottom: 4.5px;
     width: 1100px
 }
 .dateList {
@@ -60,6 +61,7 @@ p {
     border-radius: 3px;
     background: #f8f5ea;
     padding: 10px;
+    padding-bottom: 4.5px;
     width: 1000px
 }
 .delList {
